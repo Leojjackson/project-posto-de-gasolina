@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    background-image:url(img/posto-foto.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+h1,ul{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+li{
+    text-align: center;
+    /* background-color: black; */
+    padding:10px;
+    list-style: none;
+}
+#bot{
+    color:white;
+    font-size: 26px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    border:none;
+    background: transparent;
+}
+
+h1{
+    text-align:center;
+    /* background-color: black; */
+
+}
+ul{
+    
+    background-color: #0000;
+}
+h1:hover{
+     opacity:0.9;
+}
+#caixa-div{
+    position: absolute;
+    right: 20px;
+    bottom: 200px;
+    margin: 20px;
+    padding: 40px;
+    background-color: hsl(0,100%,100%,0.4);
+    width:360px;
+    height:300px;
+}
+input{
+    background: transparent;
+    border-radius: 30px;
+    /* text-align: center; */
+    font: normal 17pt arial;
+}
+p{
+    text-align: center;
+    font:normal 15pt san-serif;
+}
+#h1c{
+    color:black;
+}
+#confirmar{
+    margin: auto 100px;
+}
+#res{
+    /* padding: 10px; */
+    text-align: center;
+    /* background-color: blue; */
+    width: 200px;
+    height:50px;
+    position: absolute;
+    left: 110px;
+    top: 300px;
+}
