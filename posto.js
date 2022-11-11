@@ -1,22 +1,22 @@
 
- let botao = document.querySelector('#bot');
- let inicio = document.querySelector('#ini');
- let pa = document.querySelector('#pag');
- let sobre = document.querySelector('#sob');
- let contato = document.querySelector('#con');
- function clicar(){
+//  let botao = document.querySelector('#bot');
+//  let inicio = document.querySelector('#ini');
+//  let pa = document.querySelector('#pag');
+//  let sobre = document.querySelector('#sob');
+//  let contato = document.querySelector('#con');
+//  function clicar(){
  
-   inicio.innerHTML = 'Inicio'
-   pa.innerHTML = 'Página'
-   sobre.innerHTML = 'Sobre'
-   contato.innerHTML = 'Contato'
- }
- function sair(){
-    inicio.innerHTML = ''
-    pa.innerHTML = ''
-    sobre.innerHTML = ''
-    contato.innerHTML = ''
- }
+//    inicio.innerHTML = 'Inicio'
+//    pa.innerHTML = 'Página'
+//    sobre.innerHTML = 'Sobre'
+//    contato.innerHTML = 'Contato'
+//  }
+//  function sair(){
+//     inicio.innerHTML = ''
+//     pa.innerHTML = ''
+//     sobre.innerHTML = ''
+//     contato.innerHTML = ''
+//  }
 
  //  ---- funcionalidade dos textos digitados ----
  function clicou()
