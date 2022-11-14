@@ -59,7 +59,7 @@ p {
     bottom: 200px;
     margin: 20px;
     padding: 40px;
-    background-color: hsl(0, 100%, 100%, 0.9);
+    background-color: hsl(0, 100%, 100%, 0.5);
     width: 360px;
     height: 310px;
     transform: translateX(40px);
