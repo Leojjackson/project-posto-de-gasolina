@@ -64,27 +64,34 @@ p {
     height: 310px;
     transform: translateX(40px);
 }
-@media all and (max-width:500px){
+@media all and (max-width:400px){
    #caixa-div{
+    display: block;
+    justify-content: center;
     position: absolute;
     border-radius: 30px;
-    /* right: 20px; */
-    bottom: 50px;
+    left: 70px;
+    top: 60px;
     margin: 20px;
     padding: 20px;
     background-color: hsl(0, 100%, 100%, 0.5);
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 350px;
     transform: translateX(40px);
    }
    h1{
-    font-size: 14pt;;
+    font-size: 16pt;
    }
    input {
     background: transparent;
-    border-radius: 5px;
+    border-radius: 10px;
     font: normal 13pt arial;
-}
+    }
+    #res{
+        position: absolute;
+        right:50px;
+        bottom: 200px;
+    }
 }
 
 #res {
