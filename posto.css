@@ -86,12 +86,7 @@ p {
     background: transparent;
     border-radius: 10px;
     font: normal 13pt arial;
-    }
-    #res{
-        position: absolute;
-        right:50px;
-        bottom: 200px;
-    }
+   }
 }
 
 #res {
