@@ -1,8 +1,8 @@
 body {
     margin: 0px;
-    background-image:url(img/posto-foto.jpg);
-    background-repeat:no-repeat;
-    background-size:100vw 100vh;
+    background-image: url(img/posto-foto.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
 }
 
 ul {
@@ -15,16 +15,6 @@ li {
     /* background-color: black; */
     padding: 10px;
     list-style: none;
-}
-
-#bot {
-    color: white;
-    font-size: 26px;
-    position: absolute;
-    right: 10px;
-    top: 5px;
-    border: none;
-    background: transparent;
 }
 
 h1 {
@@ -52,6 +42,8 @@ p {
     border-radius: 10px;
 }
 
+/* Caixa de Login */
+
 #caixa-div {
     position: absolute;
     border-radius: 30px;
@@ -63,56 +55,6 @@ p {
     width: 360px;
     height: 310px;
     transform: translateX(40px);
-}
-@media screen and (max-width:400px){
-   #caixa-div{
-    position: absolute;
-    border-radius: 30px;
-    left: 90px;
-    top: 60px;
-    margin: 20px;
-    padding: 20px;
-    background-color: hsl(0, 100%, 100%, 0.5);
-    width: 230px;
-    height: 350px;
-   }
-   #caixa-div {
-    animation-name: slide;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes slide {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        transform: translateX(0px);
-        opacity: 0.9;
-    }
-}
-   h1{
-    font-size: 16pt;
-   }
-   input {
-    background: transparent;
-    border-radius: 10px;
-    font: normal 13pt arial;
-   }
-}
-
-#res {
-    padding: 10px;
-    text-align: center;
-    width: 200px;
-    height: 50px;
-    position: absolute;
-    left: 110px;
-    top: 300px;
-}
-
-#caixa-div {
     animation-name: slide;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -129,12 +71,68 @@ p {
     }
 }
 
+/*-------------------------------------*/
+
+/* Media screen para Mobile */
+
+@media screen and (max-width:400px) {
+    #caixa-div {
+        position: absolute;
+        border-radius: 30px;
+        left: 90px;
+        top: 60px;
+        margin: 20px;
+        padding: 20px;
+        background-color: hsl(0, 100%, 100%, 0.5);
+        width: 230px;
+        height: 350px;
+    }
+
+    #caixa-div {
+        animation-name: slide;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes slide {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            transform: translateX(0px);
+            opacity: 0.9;
+        }
+    }
+
+    h1 {
+        font-size: 16pt;
+    }
+
+    input {
+        background: transparent;
+        border-radius: 10px;
+        font: normal 13pt arial;
+    }
+}
+/* ----------------------------------------- */
+#res {
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 110px;
+    top: 300px;
+}
+
 #h1posto {
     text-align: center;
     color: white;
     transform: translateY(-30px);
 }
 
+/* Posto de economia Titulo */
 #h1posto {
     animation-name: slid;
     animation-duration: 3s;
@@ -151,3 +149,4 @@ p {
         opacity: 0.9;
     }
 }
+/* --------------------------------------- */
