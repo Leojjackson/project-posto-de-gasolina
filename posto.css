@@ -64,7 +64,7 @@ p {
     height: 310px;
     transform: translateX(40px);
 }
-@media all and (max-width:400px){
+@media screen and (max-width:400px){
    #caixa-div{
     position: absolute;
     border-radius: 30px;
@@ -76,6 +76,22 @@ p {
     width: 230px;
     height: 350px;
    }
+   #caixa-div {
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 0.9;
+    }
+}
    h1{
     font-size: 16pt;
    }
