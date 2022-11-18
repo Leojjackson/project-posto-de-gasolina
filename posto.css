@@ -66,11 +66,9 @@ p {
 }
 @media all and (max-width:400px){
    #caixa-div{
-    display: block;
-    justify-content: center;
     position: absolute;
     border-radius: 30px;
-    left: 70px;
+    left: 90px;
     top: 60px;
     margin: 20px;
     padding: 20px;
