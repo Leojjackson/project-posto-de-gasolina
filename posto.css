@@ -75,7 +75,6 @@ p {
     background-color: hsl(0, 100%, 100%, 0.5);
     width: 230px;
     height: 350px;
-    transform: translateX(40px);
    }
    h1{
     font-size: 16pt;
