@@ -48,10 +48,10 @@ p {
     position: absolute;
     border-radius: 30px;
     right: 20px;
-    bottom: 200px;
+    bottom: 130px;
     margin: 20px;
     padding: 40px;
-    background-color: hsl(0, 100%, 100%, 0.5);
+    background-color: hsl(0, 100%, 100%, 0.9);
     width: 360px;
     height: 310px;
     transform: translateX(40px);
