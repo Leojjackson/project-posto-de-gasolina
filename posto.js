@@ -7,16 +7,16 @@
    let caixa = cax1.value;
    let num = numero.value;
  
-      if(caixa == "gasolina" || caixa == 'Gasolina')
+      if(caixa == "gas" || caixa == 'Ga')
    {
-      res.innerHTML = `Olá ${num} Você escolheu ${caixa}, prossiga para a bomba por favor!!!`
+      res.innerHTML = `Hello ${num} You have Chosen ${caixa}, Proceed To The Pumb Please!!!`
    }
       else if(caixa == 'alcool' || caixa == 'Alcool')
    {
-      res.innerHTML = ` Olá ${num} Você escolheu ${caixa}, prossiga para a bomba por favor!!!`
+      res.innerHTML = ` Hello ${num} You have Chosen ${caixa}, Proceed To The Pumb Please!!!`
    }
       else
    {
-      window.alert('ERROR...as caixas ou uma delas ficaram vazias. ERROR..')
+      window.alert('ERROR... You haven`t chosen nothing. ERROR..')
    }
  };

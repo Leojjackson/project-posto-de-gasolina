@@ -42,7 +42,7 @@ p {
     border-radius: 10px;
 }
 
-/* Caixa de Login */
+/* Login box */
 
 #caixa-div {
     position: absolute;
@@ -73,7 +73,7 @@ p {
 
 /*-------------------------------------*/
 
-/* Media screen para Mobile */
+/* Media screen to Mobile */
 
 @media screen and (max-width:400px) {
     #caixa-div {
@@ -132,7 +132,7 @@ p {
     transform: translateY(-30px);
 }
 
-/* Posto de economia Titulo */
+/* Gas station 7 title */
 #h1posto {
     animation-name: slid;
     animation-duration: 3s;
