@@ -7,7 +7,7 @@
    let caixa = cax1.value;
    let num = numero.value;
  
-      if(caixa == "gas" || caixa == 'Ga')
+      if(caixa == "gas" || caixa == 'Gas')
    {
       res.innerHTML = `Hello ${num} You have Chosen ${caixa}, Proceed To The Pumb Please!!!`
    }
