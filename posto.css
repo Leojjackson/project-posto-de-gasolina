@@ -85,7 +85,7 @@ p {
 
 /* Media screen to Mobile */
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     #caixa-div {
         position: absolute;
         border-radius: 30px;
@@ -132,7 +132,7 @@ p {
     color: white;
     transform: translateY(-30px);
 }
-
+/* ============================================ */
 /* Gas station 7 title */
 #h1posto {
     animation-name: slid;
