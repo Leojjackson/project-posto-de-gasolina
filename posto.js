@@ -1,6 +1,7 @@
  //  ---- funcionalidade dos textos digitados ----
- function clicou()
- {
+   confirmar.addEventListener("click", event =>{
+ 
+   let confirmar = document.querySelector("#confirmar");
    let cax1 = document.querySelector('#txt');
    let numero = document.querySelector("#num");
    let res = document.querySelector('#res');
@@ -19,4 +20,5 @@
    {
       window.alert('ERROR... You haven`t chosen nothing. ERROR..')
    }
- };
+   
+});
