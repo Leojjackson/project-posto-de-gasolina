@@ -99,12 +99,12 @@ p {
     }
 
     #caixa-div {
-        animation-name: slide;
-        animation-duration: 3s;
-        animation-fill-mode: forwards;
+        animation-name: none;
+        /* animation-duration: 3s; */
+        /* animation-fill-mode: forwards; */
     }
 
-    @keyframes slide {
+    /* @keyframes slide {
         from {
             opacity: 0;
         }
@@ -113,7 +113,7 @@ p {
             transform: translateX(0px);
             opacity: 0.9;
         }
-    }
+    } */
 
     h1 {
         font-size: 16pt;
