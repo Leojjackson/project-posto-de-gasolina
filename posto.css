@@ -89,8 +89,8 @@ p {
     #caixa-div {
         position: absolute;
         border-radius: 30px;
-        left: 90px;
-        top: 60px;
+        left: 5vw;
+        top: 25vh;
         margin: 20px;
         padding: 20px;
         background-color: hsl(0, 100%, 100%, 0.5);
