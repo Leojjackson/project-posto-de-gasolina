@@ -85,7 +85,7 @@ p {
 
 /* Media screen to Mobile */
 
-@media screen and (max-width:500px) {
+@media screen and (min-width:300px) {
     #caixa-div {
         position: absolute;
         border-radius: 30px;
