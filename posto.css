@@ -100,20 +100,7 @@ p {
 
     #caixa-div {
         animation-name: none;
-        /* animation-duration: 3s; */
-        /* animation-fill-mode: forwards; */
     }
-
-    /* @keyframes slide {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            transform: translateX(0px);
-            opacity: 0.9;
-        }
-    } */
 
     h1 {
         font-size: 16pt;
