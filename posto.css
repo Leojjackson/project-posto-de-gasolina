@@ -90,7 +90,7 @@ p {
 
 /* Media screen to Mobile */
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:500px) {
     #caixa-div {
         position: absolute;
         border-radius: 30px;
@@ -132,6 +132,12 @@ p {
         position: absolute;
         left: -10px;
     }
+    #footer{
+        position: absolute;
+        bottom: 5px;
+
+    }
+
 
 }
 /* ----------------------------------------- */
@@ -148,7 +154,7 @@ p {
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
-
+/* ------------------------*/
 @keyframes slid {
     from {
         opacity: 0;
