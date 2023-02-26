@@ -51,6 +51,10 @@ p {
     opacity:0.9;
     background-color: hsla(10,5%,30%,0.3);
 }
+input:hover{
+    opacity:0.9;
+    background-color: hsla(10,5%,30%,0.3);
+}
 
 /* Login box */
 
