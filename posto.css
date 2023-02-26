@@ -94,6 +94,7 @@ input:hover{
     
 }
 
+
 /*-------------------------------------*/
 
 /* Media screen to Mobile */
@@ -140,10 +141,14 @@ input:hover{
         position: absolute;
         left: -10px;
     }
-    #footer{
-        position: absolute;
-        bottom: 5px;
 
+    #confirmar:hover{
+        opacity:0.9;
+        background-color: hsla(10,5%,30%,0.3);
+    }
+    input:hover{
+        opacity:0.9;
+        background-color: hsla(10,5%,30%,0.3);
     }
 
 
