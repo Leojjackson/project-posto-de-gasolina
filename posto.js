@@ -21,5 +21,7 @@
    {
       window.alert('ERROR... You haven`t chosen nothing. ERROR..')
    }
+
+   console.log( nomes = numero.value)
    
 });
