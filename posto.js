@@ -7,6 +7,7 @@
    let res = document.querySelector('#res');
    let caixa = cax1.value;
    let num = numero.value;
+   let nomes = [];
  
       if(caixa == "gas" || caixa == 'Gas')
    {
