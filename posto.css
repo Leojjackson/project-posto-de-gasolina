@@ -47,6 +47,10 @@ p {
     margin: auto 115px;
     border-radius: 10px;
 }
+#confirmar:hover{
+    opacity:0.9;
+    background-color: hsla(10,5%,30%,0.3);
+}
 
 /* Login box */
 
