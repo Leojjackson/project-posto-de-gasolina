@@ -24,7 +24,12 @@ class Processo{
       window.alert('ERROR... You haven`t chosen nothing. ERROR..')
    }
 
+   console.log(caixa);
    console.log( nomes = numero.value)
+
+   document.querySelector('#txt').value = '';
+   document.querySelector("#num").value = "";
+
    
 });
 }
