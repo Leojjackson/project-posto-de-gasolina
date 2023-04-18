@@ -1,7 +1,9 @@
+class Processo{
+
+   cadastro(){
  //  ---- funcionalidade dos textos digitados ----
    confirmar.addEventListener("click", event =>{
- 
-   let confirmar = document.querySelector("#confirmar");
+
    let cax1 = document.querySelector('#txt');
    let numero = document.querySelector("#num");
    let res = document.querySelector('#res');
@@ -25,3 +27,6 @@
    console.log( nomes = numero.value)
    
 });
+}
+}
+let processo = new Processo;
