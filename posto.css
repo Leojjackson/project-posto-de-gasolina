@@ -59,16 +59,17 @@ input:hover{
 /* Login box */
 
 #caixa-div {
-    position: absolute;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:80px auto;
+    
     border-radius: 30px;
-    right: 20px;
-    bottom: 130px;
-    margin: 20px;
     padding: 40px;
     background-color: hsl(0, 100%, 100%, 0.9);
     width: 360px;
     height: 310px;
-    transform: translateX(40px);
+    transform: translatey(5px);
     animation-name: slide;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -80,7 +81,7 @@ input:hover{
     }
 
     to {
-        transform: translateX(-60px);
+        transform: translateY(-60px);
         opacity: 0.9;
     }
 }
@@ -104,7 +105,7 @@ input:hover{
         position: absolute;
         border-radius: 30px;
         left: 2vw;
-        top: 20vh;
+        top: 10vh;
         margin: 20px;
         padding: 20px;
         background-color: hsl(0, 100%, 100%, 0.5);
