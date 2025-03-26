@@ -11,17 +11,17 @@ class Processo{
    let num = numero.value;
    let nomes = [];
  
-      if(caixa == "gas" || caixa == 'Gas')
+      if(caixa == "gasolina" || caixa == 'Gasolina')
    {
-      res.innerHTML = `Hello ${num} You have Chosen ${caixa}, Proceed To The Pumb Please!!!`
+      res.innerHTML = `Olá ${num} Voçê escolheu ${caixa}, prossiga para a bomba por favor!!!`
    }
       else if(caixa == 'alcool' || caixa == 'Alcool')
    {
-      res.innerHTML = ` Hello ${num} You have Chosen ${caixa}, Proceed To The Pumb Please!!!`
+      res.innerHTML = ` Olá ${num} Voçê escolheu ${caixa}, Prossiga para a bomba por favor!!!`
    }
       else
    {
-      window.alert('ERROR... You haven`t chosen nothing. ERROR..')
+      window.alert('ERRO... Nada selecionado. ERROR..')
    }
 
    console.log(caixa);
